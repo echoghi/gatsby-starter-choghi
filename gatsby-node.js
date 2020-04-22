@@ -3,5 +3,16 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const path = require('path');
 
-// You can delete this file if you're not using it
+// Set up webpack aliases
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+        resolve: {
+            alias: {
+                theme: path.resolve(__dirname, 'config/theme'),
+                config: path.resolve(__dirname, 'config'),
+            },
+        },
+    });
+};
