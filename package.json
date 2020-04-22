@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-choghi",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby, Styled Components, and other features.",
+  "description": "A simple starter to get up and developing quickly with Gatsby, Styled Components, and offline features.",
   "version": "0.1.0",
   "author": "Emile Choghi <emchoghi@gmail.com>",
   "dependencies": {
@@ -31,7 +31,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

@@ -9,10 +9,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from '../Header';
-import Footer from '../Footer';
-import GlobalStyle from '../GlobalStyle';
-import { Container } from './styles';
+import Header from './Header';
+import Footer from './Footer';
+import GlobalStyle from './GlobalStyle';
+
+import styled from 'styled-components';
+import theme from '@theme';
+
+const Container = styled.div`
+    margin: 0 auto;
+    max-width: ${theme.contentWidth}px;
+    padding: 0 1.0875rem 1.45rem;
+`;
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
