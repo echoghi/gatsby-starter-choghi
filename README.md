@@ -37,7 +37,10 @@
 ## 🧐 What's inside?
 
 -   styled-components with a simple theme hooked up.
--   Webpack aliases configured in `gatsby-node.js`.
+-   Webpack aliases configured in `gatsby-node.js` for easy access to important modules.
+-   A top level config to organize all site related info.
+-   Components organized by folder for smaller and easier to maintain files.
+-   Fully functional offline PWA.
 
 ## 💫 Deploy
 
