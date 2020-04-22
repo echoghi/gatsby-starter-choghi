@@ -29,7 +29,7 @@ module.exports = {
                 background_color: theme.colors.primary,
                 theme_color: theme.colors.primary,
                 display: 'minimal-ui',
-                icon: 'src/images/gatsby-icon.png',
+                icon: config.icon,
             },
         },
     ],

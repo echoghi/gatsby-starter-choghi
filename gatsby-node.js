@@ -10,8 +10,8 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     actions.setWebpackConfig({
         resolve: {
             alias: {
-                theme: path.resolve(__dirname, 'config/theme'),
-                config: path.resolve(__dirname, 'config'),
+                '@theme': path.resolve(__dirname, 'config/theme'),
+                '@config': path.resolve(__dirname, 'config'),
             },
         },
     });

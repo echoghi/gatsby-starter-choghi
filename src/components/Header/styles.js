@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import theme from 'theme';
+import theme from '@theme';
 
 export const Container = styled.header`
     background: ${theme.colors.primary};
@@ -8,6 +8,6 @@ export const Container = styled.header`
 
 export const Wrapper = styled.div`
     margin: 0 auto;
-    max-width: 960px;
+    max-width: ${theme.contentWidth}px;
     padding: 1.45rem 1.0875rem;
 `;

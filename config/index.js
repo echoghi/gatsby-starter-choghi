@@ -5,7 +5,7 @@ module.exports = {
     siteTitleShort: 'gatsbystarter.com', // short_name for manifest
     siteUrl: 'https://gatsbystarter.com', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
-    siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
+    siteLogo: 'images/gatsby-icon.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
     siteDescription: 'Frontend Engineer from the Bay Area',
     author: 'Emile Choghi', // Author for schemaORGJSONLD
     organization: 'gatsbystarter.com',

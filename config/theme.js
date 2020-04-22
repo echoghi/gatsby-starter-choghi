@@ -1,8 +1,9 @@
 const theme = {
     colors: {
-        primary: 'rebeccapurple',
+        primary: '#0A192e',
         white: '#fff',
     },
+    contentWidth: 960,
 };
 
 module.exports = theme;
