@@ -1,32 +1,19 @@
-import { Link } from 'gatsby';
-import { Container, Wrapper } from './styles';
+import { Container, Wrapper, Heading, NavLink } from './styles';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle = '' }) => (
     <Container>
         <Wrapper>
-            <h1 style={{ margin: 0 }}>
-                <Link
-                    to="/"
-                    style={{
-                        color: `white`,
-                        textDecoration: `none`,
-                    }}
-                >
-                    {siteTitle}
-                </Link>
-            </h1>
+            <Heading>
+                <NavLink to="/">{siteTitle}</NavLink>
+            </Heading>
         </Wrapper>
     </Container>
 );
 
 Header.propTypes = {
     siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-    siteTitle: ``,
 };
 
 export default Header;
